@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 91.128 sec <<< FAILURE! - in TestSuite
+validateTitle(testcases.TitleSectionTest)  Time elapsed: 13.637 sec  <<< FAILURE!
+java.lang.AssertionError: Failing Test case to check screenshot and reporting
+	at org.testng.Assert.fail(Assert.java:96)
+	at testcases.TitleSectionTest.validateTitle(TitleSectionTest.java:38)
+

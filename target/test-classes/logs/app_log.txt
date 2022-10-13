@@ -1,0 +1,4 @@
+INFO    2022-10-13 22:53:15,860 [main] base.TestBase  - Appium server started
+INFO    2022-10-13 22:53:15,861 [main] base.TestBase  - Android_flipboard.properties properties file loaded !!!
+INFO    2022-10-13 22:54:03,744 [main] base.TestBase  - Test case execution completed
+INFO    2022-10-13 22:54:03,808 [main] base.TestBase  - Appium server stopped !!!

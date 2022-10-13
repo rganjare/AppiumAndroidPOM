@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Title Section Test(failed)">
+    <classes>
+      <class name="testcases.TitleSectionTest">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="init"/>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- testcases.TitleSectionTest -->
+    </classes>
+  </test> <!-- Title Section Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
