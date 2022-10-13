@@ -46,7 +46,6 @@ public class ExtentManager {
 			try {
 				FileUtils.copyFile(scrFile, new File(System.getProperty("user.dir") + "\\target\\executionReports\\" + screenshotName));
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		
