@@ -74,7 +74,6 @@ public class CommonUtils {
 		//capabilities.setCapability(CapabilityType.BROWSER_NAME, BROWSER_NAME);
 		capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, PLATFORM_VERSION);
 		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, DEVICE_NAME);
-
 		
 		capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, BASE_PKG);
 		capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, APP_ACTIVITY);

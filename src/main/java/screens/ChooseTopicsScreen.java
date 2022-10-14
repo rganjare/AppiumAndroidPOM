@@ -53,7 +53,6 @@ public class ChooseTopicsScreen extends ScreenBase {
 		
 		return this;
 		
-		
 	}
 	
 	
