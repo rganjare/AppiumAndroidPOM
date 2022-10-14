@@ -35,14 +35,15 @@ public class TitleSectionTest  extends TestBase {
 			e.printStackTrace();
 		}
 		home.gotoTitleSection();
-		Assert.fail("Failing Test case to check screenshot and reporting");
+		
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		ScrollUtil.scrollUp(2, driver);
+		
+		//Assert.fail("Failing Test case to check screenshot and reporting");
 	}
 
 	
