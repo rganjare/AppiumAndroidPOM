@@ -43,7 +43,7 @@ public class TitleSectionTest  extends TestBase {
 		}
 		ScrollUtil.scrollUp(2, driver);
 		
-		//Assert.fail("Failing Test case to check screenshot and reporting");
+		Assert.fail("Failing Test case to check screenshot and reporting");
 	}
 
 	
